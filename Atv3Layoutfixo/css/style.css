@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    margin: 10px;
+    width: 960px;
+    height: 50px;
+    background-color: beige;
+}
+
+.esq{
+    margin-left: 10px;
+    width: 520px;
+    height: 900px;
+    background-color: beige;
+    float: left;
+}
+
+.meio{
+    margin-left: 20px;
+    width: 200px;
+    height: 900px;
+    background-color: beige;
+    float: left;
+}
+
+.dir{
+    margin-left: 20px;
+    width: 200px;
+    height: 900px;
+    background-color: beige;
+    float: left;
+}
+
+img{
+    max-width: 100%;
+}
+
+p{
+    padding: 5px;
+}

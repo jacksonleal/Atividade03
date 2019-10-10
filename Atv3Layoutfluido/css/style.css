@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    width: calc(90% + 40px); /* os 40 da margem */
+    height: 50px;
+    background-color: beige;
+    margin-bottom: 20px;
+}
+
+.esq{
+    width: 50%;
+    background-color: beige;
+    float: left;
+}
+
+.meio{
+    margin-left: 20px;
+    width: 20%;
+    background-color: beige;
+    float: left;
+}
+
+.dir{
+    margin-left: 20px;
+    width: 20%;
+    background-color: beige;
+    float: left;
+}
+
+img{
+    max-width: 100%;
+}
+
+p{
+    padding: 5px;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 640px) {
+
+    .menu{
+        width: calc(99%)
+    }
+
+    .esq {
+        width: 99%;
+        margin-bottom: 20px;
+    }
+    .meio{
+        width: 47.55%;
+        clear: both;
+        margin: 0px;
+    }
+    .dir{
+        width: 47.55%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .menu{
+        width: calc(99%)
+    }
+
+    .esq {
+        width: 99%;
+        margin-bottom: 20px;
+    }
+    .meio{
+        width: 99%;
+        clear: both;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .dir{
+        width: 99%;
+        margin-left: 0px;
+    }
+}
