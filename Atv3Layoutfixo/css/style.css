@@ -41,3 +41,8 @@ img{
 p{
     padding: 5px;
 }
+
+.container{
+    width: 1200px;
+    height: 1200px;
+}
